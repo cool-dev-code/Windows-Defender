@@ -1,0 +1,7 @@
+Press Windows key + R to invoke the Run dialog.
+In the Run dialog, copy and paste the path below and hit Enter (if prompted, click Continue).
+C:\ProgramData\Microsoft\Windows Defender\Scans\History
+Now, right-click the Service folder in that location and select Delete.
+You can exit File Explorer.
+Next, open Windows Security > Virus & threat protection > Manage settings.
+Toggle the button to Off then to On again for Real-Time protection and  Cloud-delivered protection.

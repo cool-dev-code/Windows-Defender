@@ -1,0 +1,7 @@
+Windows Defender Tray icon fix:
+Open cmd as administrator
+paste this 
+
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v SecurityHealth /d "%windir%\system32\SecurityHealthSystray.exe" /t REG_SZ /f
+
+now restart
